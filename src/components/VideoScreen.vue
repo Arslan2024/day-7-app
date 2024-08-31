@@ -1,6 +1,7 @@
 <template>
-  <div class=" d-flex flex-row text-capitalize fixed top">
-    <div class="d-flex flex-column flex-shrink-0 Nav-color position-fixed start-0 top-0 vh-100 ">
+  
+  <div class=" d-flex flex-row text-capitalize fixed top overflow-hidden">
+    <div class="d-flex flex-column flex-shrink-0 Nav-color position-fixed start-0 top-0 vh-100  ">
 
       <ul class="nav nav-pills nav-flush flex-column nav-margin text-center">
         <li class="text-center">
@@ -54,7 +55,7 @@
           </a>
         </li>
         <li>
-          <a href="#" class="nav-link py-3  nav-box nav-box-margin text-light" title="" data-bs-toggle="tooltip"
+          <a href="#" class="nav-link py-3  nav-box  text-light" title="" data-bs-toggle="tooltip"
             data-bs-placement="right" data-bs-original-title="Customers">
             <img class="nav-image  nav-image-margin" src="@/assets/Tutorials.svg">
             Tutorials
@@ -79,7 +80,7 @@
    
     </div>
     <div class="video-side ps-3 text-capitalize">
-     <div class="another sticky-top"> <div class="video-side-nav ">
+     <div class="another "> <div class="video-side-nav ">
         <div class="search-box-container ">
           <div class="search-box  w-100 d-flex justify-content-center align-item-center align-self-start position-relative  ">
             <input type="search" class="search-box  text-white search-box-color rounded mt-3 border-light  ps-5"
@@ -91,12 +92,12 @@
         </div>
         <div class="chrome">
           <button type="button"
-            class="btn  text-white border rounded   text-capitalize Chrome-extension-btn mt-3 d-none d-lg-block" Chrome
+            class="btn btn-outline-primary  text-white border rounded   text-capitalize Chrome-extension-btn mt-3 d-none d-lg-block" Chrome
             extension> install chrome extension</button>
         </div>
 
       </div>
-      <div class="second-nav d-flex flex-row justify-content-between ">
+      <div class="second-nav d-flex flex-row flex-wrap justify-content-between ">
         <div class=" category-buttons nav ms-3">
           <button type="button" class="category-btn text-white border rounded Nav-color mt-5 me-2 btn-lg btn-md btn-sm">cooking</button>
           <button type="button" class="category-btn text-white border rounded Nav-color mt-5 me-2">gaming</button>
@@ -106,46 +107,47 @@
           <button type="button" class="category-btn text-white border rounded Nav-color mt-5 me-2">+18 other
             defaults</button>
         </div>
-        <div class="radio-container  me-5  d-flex flex-wrap mt-5">
-          <div class="first-radio d-flex flex-row nav-color border rounded me-2">
+        <div class="radio-container    d-flex flex-wrap mt-5 ">
+          <div class="first-radio d-flex flex-row nav-color border rounded me-2 mb-1 p-1">
             <input type="radio" class="btn-check border-0" name="options-outlined" id="first-one-outlined"
               autocomplete="off" checked>
-            <label class="btn btn-outline-light border-0" for="first-one-outlined"><img
+            <label class="btn btn-outline-light border-0 w-100 p-0 " for="first-one-outlined"><img
                 src="@/assets/radio1-1.svg"></label>
 
             <input type="radio" class="btn-check border-0" name="options-outlined" id="second-one-outlined"
               autocomplete="off">
-            <label class="btn btn-outline-dark border-0" for="second-one-outlined"><img
+            <label class="btn btn-outline-dark border-0 w-100 p-0" for="second-one-outlined"><img
                 src="@/assets/radio1-2.svg"></label>
           </div>
-          <div class="second-radio d-flex flex-row nav-color border rounded me-2">
+          <div class="second-radio d-flex flex-row nav-color border rounded  p-1 mb-1 ">
             <input type="radio" class="btn-check border-0" name="option-outlined" id="third-one-outlined" checked
               autocomplete="off">
-            <label class="btn btn-outline-light border-0" for="third-one-outlined"><img
+            <label class="btn btn-outline-light border-0 w-100 p-0" for="third-one-outlined"><img
                 src="@/assets/radio-2-1.svg"></label>
 
             <input type="radio" class="btn-check border-0" name="option-outlined" id="forth-one-outlined"
               autocomplete="off">
-            <label class="btn btn-outline-dark border-0" for="forth-one-outlined"><img
+            <label class="btn btn-outline-dark border-0 w-100 p-0" for="forth-one-outlined"><img
                 src="@/assets/radio-2-2.svg"></label>
           </div>
-          <div class="defaultradio   nav border border-light rounded me-2 ">
+          <div class="defaultradio   nav border border-light rounded me-2 mb-1 ">
             <input type="checkbox" class="btn-check  " id="btn-check-outlined" checked autocomplete="off">
-            <label class="btn btn-outline-light border-0 p-0" for="btn-check-outlined"><img src="@/assets/default-icon.svg">
+            <label class="btn btn-outline-light border-0 p-1 w-100" for="btn-check-outlined"><img src="@/assets/default-icon.svg">
               Default</label>
           </div>
-          <div class="filter-radio me-0 border border-light rounded">
+          <div class="filter-radio me-0 border border-light rounded mb-1 ">
             <input type="checkbox" class="btn-check" id="btn-check-2-outlined" checked autocomplete="off">
-            <label class="btn btn-outline-light p-0" for="btn-check-2-outlined"><img
+            <label class="btn btn-outline-light p-1 w-100 " for="btn-check-2-outlined"><img
                 src="@/assets/filter-icon.svg">filter</label>
 
           </div>
         </div>
       </div>
     </div>
-      <div class="container-fluid video-section mt-5 ms-3 d-flex flex-wrap align-content-start text-capitalize">
-        <div class="card image-card Nav-color text-light fst-normal border rounded border-grey text-lowercase me-3 mb-3 ">
-          <img src="@/assets/dummy-image1.png" class="card-img-top" alt="thumbnail error">
+      <div class="container-fluid video-section mt-5 ms-1 d-flex flex-wrap align-content-start  text-capitalize min-vh-100 another ">
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 video-item col-xxl-2 p-2  ">  
+           <div class="card image-card Nav-color text-light fst-normal border rounded border-grey text-lowercase me-3 mb-3 ">
+          <img src="@/assets/Thumnail-1.png" class="card-img-top" alt="thumbnail error">
           <div class="card-body">
             <p class="card-text">How will trump's conviction impact
               the 2024 presidential race</p>
@@ -159,8 +161,9 @@
             </div>
           </div>
         </div>
-        <div class="card image-card Nav-color text-light fst-normal border rounded border-grey text-lowercase me-3 mb-3">
-          <img src="@/assets/dummy-image1.png" class="card-img-top" alt="thumbnail error">
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 video-item  col-xxl-2 p-2  "> <div class="card image-card Nav-color text-light fst-normal border rounded border-grey text-lowercase me-3 mb-3">
+          <img src="@/assets/thumbnail-2.png" class="card-img-top" alt="thumbnail error">
           <div class="card-body">
             <p class="card-text">How will trump's conviction impact
               the 2024 presidential race</p>
@@ -173,9 +176,9 @@
               <p class="mb-0">9 days ago</p>
             </div>
           </div>
-        </div>
-        <div class="card image-card Nav-color text-light fst-normal border rounded border-grey text-lowercase me-3 mb-3">
-          <img src="@/assets/dummy-image1.png" class="card-img-top" alt="thumbnail error">
+        </div> </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 video-item col-xxl-2 p-2  "> <div class="card image-card Nav-color text-light fst-normal border rounded border-grey text-lowercase me-3 mb-3">
+          <img src="@/assets/thumbnail-3.png" class="card-img-top" alt="thumbnail error">
           <div class="card-body">
             <p class="card-text">How will trump's conviction impact
               the 2024 presidential race</p>
@@ -188,9 +191,9 @@
               <p class="mb-0">9 days ago</p>
             </div>
           </div>
-        </div>
-        <div class="card image-card Nav-color text-light fst-normal border rounded border-grey text-lowercase me-3 mb-3">
-          <img src="@/assets/dummy-image1.png" class="card-img-top" alt="thumbnail error">
+        </div> </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 video-item col-xxl-2 p-2  "> <div class="card image-card Nav-color text-light fst-normal border rounded border-grey text-lowercase me-3 mb-3">
+          <img src="@/assets/thumbnail4.png" class="card-img-top" alt="thumbnail error">
           <div class="card-body">
             <p class="card-text">How will trump's conviction impact
               the 2024 presidential race</p>
@@ -203,9 +206,9 @@
               <p class="mb-0">9 days ago</p>
             </div>
           </div>
-        </div>
-        <div class="card image-card Nav-color text-light fst-normal border rounded border-grey text-lowercase me-3 mb-3">
-          <img src="@/assets/dummy-image1.png" class="card-img-top" alt="thumbnail error">
+        </div> </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 video-item col-xxl-2 p-2  ">  <div class="card image-card Nav-color text-light fst-normal border rounded border-grey text-lowercase me-3 mb-3">
+          <img src="@/assets/thumbnail-5.png" class="card-img-top" alt="thumbnail error">
           <div class="card-body">
             <p class="card-text">How will trump's conviction impact
               the 2024 presidential race</p>
@@ -218,9 +221,9 @@
               <p class="mb-0">9 days ago</p>
             </div>
           </div>
-        </div>
-        <div class="card image-card Nav-color text-light fst-normal border rounded border-grey text-lowercase me-3 mb-3">
-          <img src="@/assets/dummy-image1.png" class="card-img-top" alt="thumbnail error">
+        </div> </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 video-item col-xxl-2 p-2  ">  <div class="card image-card Nav-color text-light fst-normal border rounded border-grey text-lowercase me-3 mb-3">
+          <img src="@/assets/thumbnail-6.png" class="card-img-top" alt="thumbnail error">
           <div class="card-body">
             <p class="card-text">How will trump's conviction impact
               the 2024 presidential race</p>
@@ -233,9 +236,9 @@
               <p class="mb-0">9 days ago</p>
             </div>
           </div>
-        </div>
-        <div class="card image-card Nav-color text-light fst-normal border rounded border-grey text-lowercase me-3 mb-3">
-          <img src="@/assets/dummy-image1.png" class="card-img-top" alt="thumbnail error">
+        </div> </div>
+       <div class="col-12 col-sm-6 col-md-4 col-lg-3 video-item col-xxl-2 p-2  ">   <div class="card image-card Nav-color text-light fst-normal border rounded border-grey text-lowercase me-3 mb-3">
+          <img src="@/assets/thumbnail-6.png" class="card-img-top" alt="thumbnail error">
           <div class="card-body">
             <p class="card-text">How will trump's conviction impact
               the 2024 presidential race</p>
@@ -248,9 +251,9 @@
               <p class="mb-0">9 days ago</p>
             </div>
           </div>
-        </div>
-        <div class="card image-card Nav-color text-light fst-normal border rounded border-grey text-lowercase me-3 mb-3">
-          <img src="@/assets/dummy-image1.png" class="card-img-top " alt="thumbnail error">
+        </div> </div>
+       <div class="col-12 col-sm-6 col-md-4 col-lg-3 video-item col-xxl-2 p-2  ">   <div class="card image-card Nav-color text-light fst-normal border rounded border-grey text-lowercase me-3 mb-3">
+          <img src="@/assets/thumbnail-8.png" class="card-img-top " alt="thumbnail error">
           <div class="card-body px-0 py-0">
             <p class="card-text">How will trump's conviction impact
               the 2024 presidential race</p>
@@ -263,7 +266,7 @@
               <p class="mb-0">9 days ago</p>
             </div>
           </div>
-        </div>
+        </div> </div>
  
       </div>
     </div>
@@ -278,6 +281,9 @@
 
 
 <style>
+.body{
+  background-color: #282F40;
+}
 .another{
   background-color: #282F40;
 }
@@ -311,6 +317,8 @@
 .radio-container{
   width: 100%;
   max-width: 399px;
+  justify-content: space-between;
+  margin-right: 30px;
 }
 .font-of-moreifo {
   font-size: small;
@@ -321,7 +329,7 @@
   width: 100%;
   max-width: 282.86px;
   height: 100%;
-  max-height: 273.6px;
+            max-height: 273.76px
 }
 
 .first-radio {

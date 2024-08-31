@@ -9,6 +9,7 @@ import SignupScreen from './components/SignupScreen.vue';
 import ForgotPassword from './components/ForgotPassword.vue';
 import UpdatePassword from './components/UpdatePassword.vue';
 import VideoScreen from './components/VideoScreen.vue';
+import ReelScreen from './components/ReelScreen.vue';
 import { createRouter ,createWebHistory } from 'vue-router'
 const router = createRouter({
 history : createWebHistory(),
@@ -18,6 +19,7 @@ routes:[
 {path:'/SignupScreen', component:SignupScreen},
 {path:'/ForgotPassword',component:ForgotPassword},
 {path:'/UpdatePassword',component:UpdatePassword},
-{path:'/VideoScreen',component:VideoScreen}
+{path:'/VideoScreen',component:VideoScreen},
+{path:'/ReelScreen',component:ReelScreen}
 ]});
 createApp(App).use(router).mount('#app')
