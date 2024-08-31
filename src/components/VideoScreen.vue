@@ -1,6 +1,6 @@
 <template>
-  <div class=" d-flex flex-row text-capitalize">
-    <div class="d-flex flex-column flex-shrink-0 Nav-color ">
+  <div class=" d-flex flex-row text-capitalize fixed top">
+    <div class="d-flex flex-column flex-shrink-0 Nav-color position-fixed start-0 top-0 vh-100 ">
 
       <ul class="nav nav-pills nav-flush flex-column nav-margin text-center">
         <li class="text-center">
@@ -78,8 +78,8 @@
       </ul>
    
     </div>
-    <div class="video-side ps-3 w-100 text-capitalize">
-      <div class="video-side-nav ">
+    <div class="video-side ps-3 text-capitalize">
+     <div class="another sticky-top"> <div class="video-side-nav ">
         <div class="search-box-container ">
           <div class="search-box  w-100 d-flex justify-content-center align-item-center align-self-start position-relative  ">
             <input type="search" class="search-box  text-white search-box-color rounded mt-3 border-light  ps-5"
@@ -97,7 +97,7 @@
 
       </div>
       <div class="second-nav d-flex flex-row justify-content-between ">
-        <div class="nav ms-3">
+        <div class=" category-buttons nav ms-3">
           <button type="button" class="category-btn text-white border rounded Nav-color mt-5 me-2 btn-lg btn-md btn-sm">cooking</button>
           <button type="button" class="category-btn text-white border rounded Nav-color mt-5 me-2">gaming</button>
           <button type="button" class="category-btn text-white border rounded Nav-color mt-5 me-2">finance</button>
@@ -142,7 +142,8 @@
           </div>
         </div>
       </div>
-      <div class="container-fluid video-section mt-5 ms-3 d-flex flex-wrap align-content-start justify-content-between text-capitalize">
+    </div>
+      <div class="container-fluid video-section mt-5 ms-3 d-flex flex-wrap align-content-start text-capitalize">
         <div class="card image-card Nav-color text-light fst-normal border rounded border-grey text-lowercase me-3 mb-3 ">
           <img src="@/assets/dummy-image1.png" class="card-img-top" alt="thumbnail error">
           <div class="card-body">
@@ -273,7 +274,17 @@
 
 
 
+
+
+
 <style>
+.another{
+  background-color: #282F40;
+}
+.video-side {
+  margin-left: 100px; /* This should match the width of your navbar */
+  padding: 20px; }
+
 .card-body{
   padding-top: 8px;
   padding-bottom: 2px;
