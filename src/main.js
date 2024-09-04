@@ -10,6 +10,9 @@ import ForgotPassword from './components/ForgotPassword.vue';
 import UpdatePassword from './components/UpdatePassword.vue';
 import VideoScreen from './components/VideoScreen.vue';
 import ReelScreen from './components/ReelScreen.vue';
+import NoDataAvailable from './components/NoDataAvailable.vue';
+import VideoTableUsingDiv from './components/VideoTableUsingDiv.vue';
+import ChannelSearch from './components/ChannelSearch.vue';
 import { createRouter ,createWebHistory } from 'vue-router'
 const router = createRouter({
 history : createWebHistory(),
@@ -20,6 +23,9 @@ routes:[
 {path:'/ForgotPassword',component:ForgotPassword},
 {path:'/UpdatePassword',component:UpdatePassword},
 {path:'/VideoScreen',component:VideoScreen},
-{path:'/ReelScreen',component:ReelScreen}
+{path:'/ReelScreen',component:ReelScreen},
+{path:'/VideoTableUsingDiv',component:VideoTableUsingDiv},
+{path:'/NoDataAvailable',component:NoDataAvailable},
+{path:'/ChannelSearch',component:ChannelSearch},
 ]});
 createApp(App).use(router).mount('#app')
