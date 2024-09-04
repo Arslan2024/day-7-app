@@ -206,7 +206,37 @@
               <p class="mb-0">9 days ago</p>
             </div>
           </div>
-        </div> </div>
+        </div></div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 video-item col-xxl-2 p-2  "> <div class="card image-card Nav-color text-light fst-normal border rounded border-grey text-lowercase me-3 mb-3">
+          <img src="@/assets/reel-image4.png" class="card-img-top" alt="thumbnail error">
+          <div class="card-body">
+            <p class="card-text">How will trump's conviction impact
+              the 2024 presidential race</p>
+              <div class="more-info d-flex flex-row font-of-moreifo justify-content-between">
+              <p class="subs">@fox5dc . 368k subs</p>
+              <p class="views ms-0">390K views vs 86 avg</p>
+            </div>
+            <div class="under-card  d-flex flex-row font-of-moreifo  justify-content-between">
+              <img src="@/assets/under-card.svg">
+              <p class="mb-0">9 days ago</p>
+            </div>
+          </div>
+        </div></div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 video-item col-xxl-2 p-2  "> <div class="card image-card Nav-color text-light fst-normal border rounded border-grey text-lowercase me-3 mb-3">
+          <img src="@/assets/reel-image4.png" class="card-img-top" alt="thumbnail error">
+          <div class="card-body">
+            <p class="card-text">How will trump's conviction impact
+              the 2024 presidential race</p>
+              <div class="more-info d-flex flex-row font-of-moreifo justify-content-between">
+              <p class="subs">@fox5dc . 368k subs</p>
+              <p class="views ms-0">390K views vs 86 avg</p>
+            </div>
+            <div class="under-card  d-flex flex-row font-of-moreifo  justify-content-between">
+              <img src="@/assets/under-card.svg">
+              <p class="mb-0">9 days ago</p>
+            </div>
+          </div>
+        </div></div>
      
  
       </div>
